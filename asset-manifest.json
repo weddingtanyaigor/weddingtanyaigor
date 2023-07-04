@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weddingtanyaigor/static/css/main.073c9b0a.css",
-    "main.js": "/weddingtanyaigor/static/js/main.798ecdd4.js",
-    "static/js/787.3c0027bd.chunk.js": "/weddingtanyaigor/static/js/787.3c0027bd.chunk.js",
-    "static/media/logo.svg": "/weddingtanyaigor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/weddingtanyaigor/index.html",
-    "main.073c9b0a.css.map": "/weddingtanyaigor/static/css/main.073c9b0a.css.map",
-    "main.798ecdd4.js.map": "/weddingtanyaigor/static/js/main.798ecdd4.js.map",
-    "787.3c0027bd.chunk.js.map": "/weddingtanyaigor/static/js/787.3c0027bd.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.45901342.js",
+    "static/js/787.3c0027bd.chunk.js": "/static/js/787.3c0027bd.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.45901342.js.map": "/static/js/main.45901342.js.map",
+    "787.3c0027bd.chunk.js.map": "/static/js/787.3c0027bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.798ecdd4.js"
+    "static/js/main.45901342.js"
   ]
 }
