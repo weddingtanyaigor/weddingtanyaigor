@@ -1,0 +1,13 @@
+import { Container, Names, Day, DayDate } from "./styles";
+
+export default function BannerComponent() {
+  return (
+    <>
+      <Container>
+        <DayDate>18.08.2023</DayDate>
+        <Day>Wedding Day</Day>
+        <Names>Igor & Tatiana</Names>
+      </Container>
+    </>
+  );
+}

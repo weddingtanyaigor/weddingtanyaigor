@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Berlyna";
+  src: local("Berlyna"), url("./fonts/Berlyna.ttf") format("truetype");
+  font-weight: normal;
+}
+
 .App {
   text-align: center;
 }
