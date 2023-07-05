@@ -7,6 +7,7 @@ function App() {
     <>
       <FirstScreen />
       <SecondScreen />
+      <FirstScreen last />
     </>
   );
 }
