@@ -8,7 +8,6 @@ export default function BannerComponent(last) {
         <Day>Wedding Day</Day>
         <Names>Igor & Tatiana</Names>
       </Container>
-      чц
     </>
   );
 }
