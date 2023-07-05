@@ -11,6 +11,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   max-width: 390px;
+  margin: 0 auto;
 `;
 
 export const Line = styled.div`
@@ -60,7 +61,7 @@ export const Hearts = styled.div`
 `;
 
 export const SwiperCont = styled(Swiper)`
-  max-width: calc(100vw - 40px);
+  max-width: 390px;
   --swiper-theme-color: white;
 `;
 
