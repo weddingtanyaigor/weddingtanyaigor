@@ -17,6 +17,27 @@ import {
   Dot1,
   Dot2,
   Dot3,
+  Colors,
+  Color1,
+  Color2,
+  Color3,
+  Color4,
+  Color5,
+  Color6,
+  Color7,
+  Color8,
+  Color9,
+  Color10,
+  Color11,
+  Color12,
+  Color13,
+  Color14,
+  Color15,
+  Color16,
+  Color17,
+  Color18,
+  Color19,
+  Color20,
 } from "./styles";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -109,6 +130,11 @@ export default function SecondScreen() {
           </Map>
         </div>
       </YMaps>
+      <br />
+      <Texts>
+        Для вашего удобства будет организован трансфер из Саранска до базы
+        отдыха и обратно. Об этом более подробно сообщим позже.
+      </Texts>
       <Line />
       <Text>Август</Text>
       <Cal></Cal>
@@ -151,6 +177,35 @@ export default function SecondScreen() {
         <Dot2 />
         <Dot3 />
       </Programm>
+      <Line />
+      <Text>Dress code</Text>
+      <Texts>
+        Нам будет очень приятно, если вы подержите цветовую гамму торжества и
+        выберете наряды в соответствии с цветовой палитрой нашей сваддьбы
+      </Texts>
+      <Colors>
+        <Color1 />
+        <Color2 />
+        <Color3 />
+        <Color4 />
+        <Color5 />
+        <Color6 />
+        <Color7 />
+        <Color8 />
+        <Color9 />
+        <Color10 />
+        <Color11 />
+        <Color12 />
+        <Color13 />
+        <Color14 />
+        <Color15 />
+        <Color17 />
+        <Color18 />
+        <Color19 />
+        <Color20 />
+        <Color16 />
+      </Colors>
+      <Line />
     </Container>
   );
 }

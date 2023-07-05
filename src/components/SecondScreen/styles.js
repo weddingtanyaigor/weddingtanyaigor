@@ -10,6 +10,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-width: 390px;
 `;
 
 export const Line = styled.div`
@@ -151,4 +152,142 @@ export const Dot3 = styled.div`
   width: 8px;
   height: 8px;
   border-radius: 50%;
+`;
+
+export const Colors = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 20px;
+`;
+
+export const Color1 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(211, 198, 190);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color2 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(245, 244, 241);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color3 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(243, 243, 243);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color4 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(238, 231, 222);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color5 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(240, 230, 219);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color6 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(224, 224, 224);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color7 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(210, 215, 215);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color8 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(158, 160, 168);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color9 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(204, 204, 193);
+  width: 45px;
+  height: 45px;
+`;
+
+export const Color10 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(232, 230, 224);
+  width: 45px;
+  height: 45px;
+`;
+export const Color11 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(238, 231, 222);
+  width: 45px;
+  height: 45px;
+`;
+export const Color12 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(228, 221, 211);
+  width: 45px;
+  height: 45px;
+`;
+export const Color13 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(244, 240, 235);
+  width: 45px;
+  height: 45px;
+`;
+export const Color14 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(240, 231, 229);
+  width: 45px;
+  height: 45px;
+`;
+export const Color15 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(221, 214, 204);
+  width: 45px;
+  height: 45px;
+`;
+export const Color16 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(216, 218, 217);
+  width: 45px;
+  height: 45px;
+`;
+export const Color17 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(245, 244, 241);
+  width: 45px;
+  height: 45px;
+`;
+export const Color18 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(204, 204, 202);
+  width: 45px;
+  height: 45px;
+`;
+export const Color19 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(206, 212, 206);
+  width: 45px;
+  height: 45px;
+`;
+export const Color20 = styled.div`
+  border-radius: 50%;
+  background-color: rgb(237, 230, 218);
+  width: 45px;
+  height: 45px;
 `;
