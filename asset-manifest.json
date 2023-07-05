@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/weddingtanyaigor/static/css/main.4cd25a46.css",
-    "main.js": "/weddingtanyaigor/static/js/main.fa7ab986.js",
+    "main.js": "/weddingtanyaigor/static/js/main.8e38f3fc.js",
     "static/js/787.3c0027bd.chunk.js": "/weddingtanyaigor/static/js/787.3c0027bd.chunk.js",
     "static/media/b6.jpeg": "/weddingtanyaigor/static/media/b6.8733d7abcdea8b1c3ea9.jpeg",
+    "static/media/dinner.jpeg": "/weddingtanyaigor/static/media/dinner.ee9869a52aa5150a4893.jpeg",
     "static/media/b4.jpeg": "/weddingtanyaigor/static/media/b4.1f0833256a275a6bf186.jpeg",
     "static/media/b.jpeg": "/weddingtanyaigor/static/media/b.fb740a59a9e814534cfe.jpeg",
     "static/media/b5.jpeg": "/weddingtanyaigor/static/media/b5.984c347c7ea07a22c2d0.jpeg",
@@ -16,14 +17,16 @@
     "static/media/Mgnon.ttf": "/weddingtanyaigor/static/media/Mgnon.a06904867510dd474edb.ttf",
     "static/media/calen.jpg": "/weddingtanyaigor/static/media/calen.43df62b950957a3d42c7.jpg",
     "static/media/Berlyna.ttf": "/weddingtanyaigor/static/media/Berlyna.78342ac2a7fe1826bd54.ttf",
+    "static/media/wedd.jpeg": "/weddingtanyaigor/static/media/wedd.e2ecc47dcef7bc54f18b.jpeg",
+    "static/media/bocal.jpeg": "/weddingtanyaigor/static/media/bocal.f0a1d9fc63655f2afbda.jpeg",
     "static/media/heart.jpg": "/weddingtanyaigor/static/media/heart.6345fe1589c713eba226.jpg",
     "index.html": "/weddingtanyaigor/index.html",
     "main.4cd25a46.css.map": "/weddingtanyaigor/static/css/main.4cd25a46.css.map",
-    "main.fa7ab986.js.map": "/weddingtanyaigor/static/js/main.fa7ab986.js.map",
+    "main.8e38f3fc.js.map": "/weddingtanyaigor/static/js/main.8e38f3fc.js.map",
     "787.3c0027bd.chunk.js.map": "/weddingtanyaigor/static/js/787.3c0027bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cd25a46.css",
-    "static/js/main.fa7ab986.js"
+    "static/js/main.8e38f3fc.js"
   ]
 }
