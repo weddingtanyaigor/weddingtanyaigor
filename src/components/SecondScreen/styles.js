@@ -10,7 +10,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 390px;
+  max-width: 375px;
   margin: 0 auto;
 `;
 
@@ -61,8 +61,14 @@ export const Hearts = styled.div`
 `;
 
 export const SwiperCont = styled(Swiper)`
-  max-width: 390px;
+  max-width: 375px;
+  margin: 0 -20px;
   --swiper-theme-color: white;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 45px;
+  }
 `;
 
 export const Programm = styled.div`
