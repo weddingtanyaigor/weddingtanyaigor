@@ -292,3 +292,122 @@ export const Color20 = styled.div`
   width: 45px;
   height: 45px;
 `;
+
+export const Forms = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+`;
+
+export const FormsField = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: start;
+  width: 100%;
+`;
+
+export const TextsField = styled.span`
+  font-family: "Mgnon";
+  font-size: 20px;
+  text-align: start;
+`;
+
+export const SubTextsField = styled.span`
+  font-family: "Mgnon";
+  font-size: 18px;
+  text-align: start;
+  color: gray;
+`;
+
+export const LineFull = styled.div`
+  width: 100%;
+  border-bottom: 1px solid black;
+`;
+
+export const Input = styled.input`
+  outline: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  margin: 0;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  font-family: "Mgnon";
+
+  width: 100%;
+`;
+
+export const CheckOnIt = styled.div`
+  display: flex;
+  gap: 10px;
+  font-family: "Mgnon";
+
+  p {
+    margin: 0;
+    font-family: "Mgnon";
+  }
+`;
+
+export const Checkbox = styled.input`
+  background-color: transparent;
+  border: 1px solid #dcebfa;
+  padding: 5px;
+  font-family: "Mgnon";
+`;
+
+export const Btn = styled.button`
+  color: #000000;
+  border: 1px solid #ffffff;
+  background-color: rgb(209, 209, 209);
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  font-family: Mix;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 48px;
+  margin-bottom: 32px;
+  width: 100%;
+
+  :hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  }
+`;
+
+export const BtnDisabled = styled.button`
+  color: #000000;
+  border: 1px solid #ffffff;
+  background-color: rgb(209, 209, 209);
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  font-family: Mix;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 48px;
+  width: 100%;
+`;
+
+export const BtnSended = styled.button`
+  color: #000000;
+  border: 1px solid #ffffff;
+  background-color: rgb(210, 215, 215);
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  font-family: Mix;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 48px;
+  width: 100%;
+`;
