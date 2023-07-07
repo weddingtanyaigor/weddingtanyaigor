@@ -83,9 +83,11 @@ export default function SecondScreen() {
   const [sending, setSending] = useState(false);
   const [onIt, setOnIt] = useState(true);
   const [transfer, setTransfer] = useState(true);
+  const [bubleWine, setBubleWine] = useState(false);
   const [whiteWine, setWhiteWine] = useState(false);
   const [redVine, setRedVine] = useState(false);
   const [wiskey, setWiskey] = useState(false);
+  const [vodka, setVodka] = useState(false);
   const [noAlco, setNoAlco] = useState(false);
   const [dop, setDop] = useState("");
 
@@ -125,9 +127,11 @@ export default function SecondScreen() {
       extraUser: `Фамилии: ${surname}`,
       onit: `Присутствие: ${onIt ? "Да" : "Нет"}`,
       transfer: `Трансфер для гостей: ${transfer ? "да" : "нет"}`,
-      alco: `Алкоголь: ${whiteWine ? "белое вино," : ""} ${
-        redVine ? "красное вино," : ""
-      }  ${wiskey ? "виски," : ""}  ${noAlco ? "безалкогольные напитки" : ""}`,
+      alco: `Алкоголь: ${bubleWine ? "игристое вино," : ""} ${
+        whiteWine ? "белое вино," : ""
+      } ${redVine ? "красное вино," : ""}  ${wiskey ? "виски," : ""} ${
+        vodka ? "водка," : ""
+      } ${noAlco ? "безалкогольные напитки" : ""}`,
       dop: `${dop ? `Дополнительные вопросы: ${dop}` : ""}`,
     };
     emailjs
@@ -275,7 +279,7 @@ export default function SecondScreen() {
       <Line />
       <Text>Dress code</Text>
       <Texts>
-        Нам будет очень приятно, если вы подержите цветовую гамму торжества и
+        Нам будет очень приятно, если вы поддержите цветовую гамму торжества и
         выберете наряды в соответствии с цветовой палитрой нашей сваддьбы
       </Texts>
       <Colors>
@@ -393,6 +397,16 @@ export default function SecondScreen() {
           <CheckOnIt>
             <Checkbox
               type='checkbox'
+              checked={bubleWine}
+              onChange={() => {
+                setBubleWine(!bubleWine);
+              }}
+            />
+            Игристое вино
+          </CheckOnIt>
+          <CheckOnIt>
+            <Checkbox
+              type='checkbox'
               checked={whiteWine}
               onChange={() => {
                 setWhiteWine(!whiteWine);
@@ -419,6 +433,16 @@ export default function SecondScreen() {
               }}
             />
             Виски
+          </CheckOnIt>
+          <CheckOnIt>
+            <Checkbox
+              type='checkbox'
+              checked={vodka}
+              onChange={() => {
+                setVodka(!vodka);
+              }}
+            />
+            Водка
           </CheckOnIt>
           <CheckOnIt>
             <Checkbox
